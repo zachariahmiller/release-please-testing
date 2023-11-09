@@ -12,16 +12,10 @@
         "versioning": "always-bump-patch",
         "extra-files": [
           "README.md",
-          {
-            "type": "yaml",
-            "path": "**/zarf.yaml",
-            "glob": true
-          },
-          {
-            "type": "yaml",
-            "path": "**/uds-bundle.yaml",
-            "glob": true
-          }
+          "package/standard/zarf.yaml",
+          "tasks/example1.yaml",
+          "tasks/example2.yaml",
+          "bundles/example-bundle/uds-bundle.yaml"
         ]
       }
     }
