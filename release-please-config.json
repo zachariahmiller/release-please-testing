@@ -14,11 +14,6 @@
           "README.md",
           {
             "type": "yaml",
-            "path": "tasks/*.yaml",
-            "glob": true
-          },
-          {
-            "type": "yaml",
             "path": "**/zarf.yaml",
             "glob": true
           },
